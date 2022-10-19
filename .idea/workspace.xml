@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/apt/format.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/apt/index.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fml/faq.fml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/apt/format.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/apt/index.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/fml/faq.fml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/markdown/markdown-velocity.md.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/markdown/markdown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/fr/xdoc/xdoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/markdown/markdown-velocity.md.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/markdown/markdown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/site_fr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/xdoc/xdoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/AllegroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/Page/AllegroPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/baseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTBuilderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTTeamBuilderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/baseTestTFT.java" afterDir="false" />
+    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="Upload 19.10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,5 +159,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload 19.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload 19.10" />
   </component>
 </project>
