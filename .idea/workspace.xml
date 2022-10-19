@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/apt/format.apt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/apt/index.apt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fml/faq.fml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/apt/format.apt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/apt/index.apt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/fml/faq.fml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/markdown/markdown-velocity.md.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/markdown/markdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/fr/xdoc/xdoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/markdown-velocity.md.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/markdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/site_fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/xdoc/xdoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/AllegroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/Page/AllegroPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AllegroPage/Test/baseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTBuilderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTTeamBuilderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/baseTestTFT.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FrvH3st5TYiuDcdrKR4ir9lUOT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.TFTTeamBuilderTests.FiilHExWirhChamps">
+    <configuration name="TFTTeamBuilderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFTTeamBuilderTests.FiilHExWirhChamps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
+      <option name="METHOD_NAME" value="FiilHExWirhChamps" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFTTeamBuilderTests.SearchASummoner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
+      <option name="METHOD_NAME" value="SearchASummoner" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFTTeamBuilderTests.SuitUpChampions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
+      <option name="METHOD_NAME" value="SuitUpChampions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFTTeamBuilderTests.makeAterribleNunu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
+      <option name="METHOD_NAME" value="makeAterribleNunu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TFTTeamBuilderTests.FiilHExWirhChamps" />
+        <item itemvalue="TestNG.TFTTeamBuilderTests.SearchASummoner" />
+        <item itemvalue="TestNG.TFTTeamBuilderTests.SuitUpChampions" />
+        <item itemvalue="TestNG.TFTTeamBuilderTests.makeAterribleNunu" />
+        <item itemvalue="TestNG.TFTTeamBuilderTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="" />
+      <created>1665262927353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665262927353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
