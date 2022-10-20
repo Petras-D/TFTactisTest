@@ -3,7 +3,7 @@ package TFTTeamBuilder.Tests;
 import TFTTeamBuilder.Page.TFTBuilderPage;
 import org.testng.annotations.Test;
 
-public class TFTTeamBuilderTests extends baseTestTFT {
+public class TFTTeamBuilderTests extends baseTestTFTTeamBuilter {
     @Test
     public void FiilHExWirhChamps() {
         TFTBuilderPage tft = new TFTBuilderPage(chrome);
@@ -24,13 +24,25 @@ public class TFTTeamBuilderTests extends baseTestTFT {
         tft.ListofRegions();
 
     }
-    @Test
-    public void ClearTeam()
-    {
 
+    @Test
+    public void ClearTeam() {
+        TFTBuilderPage tft = new TFTBuilderPage(chrome);
+        tft.CleanBench();
 
 
     }
+    @Test
+public void SearhChampionByAZ(){
+    TFTBuilderPage tft = new TFTBuilderPage(chrome);
+    tft.searchChamps();
+
+}
+@Test
+    public void SearhItemByCosts(){
+        TFTBuilderPage tft = new TFTBuilderPage(chrome);
+        tft.searchItems();
 
 
+    }
 }
