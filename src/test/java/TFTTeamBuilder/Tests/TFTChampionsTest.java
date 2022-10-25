@@ -5,12 +5,15 @@ import org.testng.annotations.Test;
 
 public class TFTChampionsTest extends BaseTestTFTChampions {
     @Test
-    public void SearchChampion(){
+    public void SearchChampionByCosts(){
         TFTChampionsPage tft=new TFTChampionsPage( chrome);
 tft.ChoseCostOfChampions(2);
-tft.ChosseChampion("Gnar", chrome);
-
-
+tft.ChosseChampion("Yone", chrome);
     }
-
+    @Test
+    public void SearchChampionByOrigin(){
+        TFTChampionsPage tft=new TFTChampionsPage( chrome);
+tft.ChoseoriginOfChampion("Astral");
+        tft.ChosseChampion("Lux", chrome);
+    }
 }

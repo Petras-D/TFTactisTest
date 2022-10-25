@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTChampionsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/BaseTestTFTChampions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTChampionsTest.java" afterDir="false" />
+    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="Upload 20.10&#10;New site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTBuilderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTBuilderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTTeamBuilderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTTeamBuilderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/baseTestTFT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/baseTestTFTTeamBuilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTChampionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTChampionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTChampionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTChampionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +42,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TFTChampionsTest.SearchChampion">
-    <configuration name="TFTChampionsTest.SearchChampion" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TFTChampionsTest.SearchChampionByOrigin">
+    <configuration name="TFTChampionsTest.SearchChampionByCosts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled4" />
       <extension name="coverage">
         <pattern>
@@ -57,7 +53,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
       <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTChampionsTest" />
-      <option name="METHOD_NAME" value="SearchChampion" />
+      <option name="METHOD_NAME" value="SearchChampionByCosts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TFTChampionsTest.SearchChampionByOrigin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTChampionsTest" />
+      <option name="METHOD_NAME" value="SearchChampionByOrigin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,24 +90,6 @@
       <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
       <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
       <option name="METHOD_NAME" value="ClearTeam" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TFTTeamBuilderTests.MakeATeamComp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
-      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
-      <option name="METHOD_NAME" value="MakeATeamComp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TFTChampionsTest.SearchChampion" />
+        <item itemvalue="TestNG.TFTChampionsTest.SearchChampionByOrigin" />
+        <item itemvalue="TestNG.TFTChampionsTest.SearchChampionByCosts" />
         <item itemvalue="TestNG.TFTTeamBuilderTests.SearhItemByCosts" />
         <item itemvalue="TestNG.TFTTeamBuilderTests.SearhChampionByAZ" />
         <item itemvalue="TestNG.TFTTeamBuilderTests.ClearTeam" />
-        <item itemvalue="TestNG.TFTTeamBuilderTests.MakeATeamComp" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666202501268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload 20.10&#10;New site">
+      <created>1666292456182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666292456182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload 19.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload 19.10" />
+    <MESSAGE value="Upload 20.10&#10;New site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload 20.10&#10;New site" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
