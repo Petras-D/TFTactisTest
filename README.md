@@ -1,4 +1,3 @@
 # TFTactisTest
 
-This Projects is for my favorite websit for searcg S tier Teams For TFttactics 
-I Will make a Atomaticall test for this website
+This Projects is for my favorite website for search S tier Teams For TFttactics 
