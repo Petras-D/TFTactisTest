@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="Upload 25.10" />
+    <list default="true" id="78cb1adb-6ce3-4e44-90ad-77ab75956a52" name="Changes" comment="Upload 25.10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTChampionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Page/TFTChampionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTChampionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TFTTeamBuilder/Tests/TFTChampionsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +42,25 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TFTChampionsTest.SearchChampionByOrigin">
+  <component name="RunManager" selected="TestNG.TFTChampionsTest.SearchChampionByALl">
+    <configuration name="TFTChampionsTest.SearchChampionByALl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTChampionsTest" />
+      <option name="METHOD_NAME" value="SearchChampionByALl" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TFTChampionsTest.SearchChampionByCosts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled4" />
       <extension name="coverage">
@@ -68,24 +90,6 @@
       <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
       <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTChampionsTest" />
       <option name="METHOD_NAME" value="SearchChampionByOrigin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TFTTeamBuilderTests.ClearTeam" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TFTTeamBuilder.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TFTTeamBuilder.Tests" />
-      <option name="MAIN_CLASS_NAME" value="TFTTeamBuilder.Tests.TFTTeamBuilderTests" />
-      <option name="METHOD_NAME" value="ClearTeam" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TFTChampionsTest.SearchChampionByALl" />
         <item itemvalue="TestNG.TFTChampionsTest.SearchChampionByOrigin" />
         <item itemvalue="TestNG.TFTChampionsTest.SearchChampionByCosts" />
         <item itemvalue="TestNG.TFTTeamBuilderTests.SearhItemByCosts" />
         <item itemvalue="TestNG.TFTTeamBuilderTests.SearhChampionByAZ" />
-        <item itemvalue="TestNG.TFTTeamBuilderTests.ClearTeam" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666719718336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Upload 25.10">
+      <created>1666719983608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666719983608</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

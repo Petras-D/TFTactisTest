@@ -13,7 +13,17 @@ tft.ChosseChampion("Yone", chrome);
     @Test
     public void SearchChampionByOrigin(){
         TFTChampionsPage tft=new TFTChampionsPage( chrome);
-tft.ChoseoriginOfChampion("Astral");
+tft.ChoseoriginOfChampion("Astral",chrome);
         tft.ChosseChampion("Lux", chrome);
+    }
+
+    @Test
+    public void SearchChampionByALl(){
+        TFTChampionsPage tft=new TFTChampionsPage( chrome);
+        tft.ChoseoriginOfChampion("Astral",chrome);
+
+
+       tft.ChoseClassOfChampion("Mage");
+       // tft.ChosseChampion("Lux", chrome);
     }
 }

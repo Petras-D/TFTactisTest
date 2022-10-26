@@ -1,5 +1,6 @@
 package TFTTeamBuilder.Page;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,8 +20,12 @@ public class TFTChampionsPage {
     @FindBy(xpath = "//img [@class='character-icon']")
     public List<WebElement> Champions;
 
-    @FindBy(xpath = "//li [@category='origin']")
+    @FindBy(xpath = "//li [@category='Origin']")
     public List<WebElement> Origins;
+
+    @FindBy(xpath = "//li [@category='Class']")
+    public List<WebElement> Class;
+
 
 
 
@@ -32,10 +37,13 @@ public class TFTChampionsPage {
     public void ChoseCostOfChampions(int cost) {
         CostChampion.get(cost - 1).click();
     }
-public void ChoseoriginOfChampion(String Originss ){
-    for (WebElement Origin : Origins) {
+public void ChoseoriginOfChampion(String Originss, WebDriver chrome ){
 
-        if (Origin.getAttribute("name").equals(Origin)) {
+
+    for (WebElement Origin : Origins) {
+chrome.findElement(By.xpath("/html/body/div[1]/div/section/div[5]/div[1]/ul[2]/li")).click();
+        if (Origin.getAttribute("name").equals(Originss)) {
+            System.out.println("jest");
             Origin.click();
             softAssert.assertEquals(Origin.getAttribute("class"),"filters-item selected");
             break;
@@ -47,7 +55,20 @@ public void ChoseoriginOfChampion(String Originss ){
 
 }
 
+    public void ChoseClassOfChampion(String Classdatas ){
+        for (WebElement classs : Class) {
 
+            if (classs.getAttribute("name").equals(Classdatas)) {
+                classs .click();
+                softAssert.assertEquals(classs.getAttribute("class"),"filters-item selected");
+                break;
+
+            }
+        }
+
+
+
+    }
 
     public void ChosseChampion(String name, WebDriver chrome) {
         String NameLower = name.toLowerCase();
